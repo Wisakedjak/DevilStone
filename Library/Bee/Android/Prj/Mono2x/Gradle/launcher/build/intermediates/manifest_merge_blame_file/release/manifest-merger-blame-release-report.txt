@@ -1,0 +1,341 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ARtio.DevilStone"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22
+23    <uses-feature
+23-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+25        android:required="false" />
+25-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+28        android:required="false" />
+28-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-65
+33-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:22-62
+34
+35    <uses-feature
+35-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:5-30:35
+36        android:name="android.hardware.camera.ar"
+36-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-50
+37        android:required="true" />
+37-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-32
+38    <uses-feature
+38-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:5-33:35
+39        android:name="com.google.ar.core.depth"
+39-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:9-48
+40        android:required="true" />
+40-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:9-32
+41
+42    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+42-->[:com.google.android.gms.play-services-measurement-sdk-api-17.1.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\845bd68b1ba204c84e676f8e37ae39ed\com.google.android.gms.play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+42-->[:com.google.android.gms.play-services-measurement-sdk-api-17.1.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\845bd68b1ba204c84e676f8e37ae39ed\com.google.android.gms.play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:22-76
+43    <uses-permission android:name="android.permission.WAKE_LOCK" />
+43-->[:com.google.android.gms.play-services-measurement-sdk-api-17.1.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\845bd68b1ba204c84e676f8e37ae39ed\com.google.android.gms.play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+43-->[:com.google.android.gms.play-services-measurement-sdk-api-17.1.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\845bd68b1ba204c84e676f8e37ae39ed\com.google.android.gms.play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:22-65
+44
+45    <queries>
+45-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:29:5-31:15
+46        <package android:name="com.google.ar.core" />
+46-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:9-54
+46-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:30:18-51
+47    </queries> <!-- Permission will be merged into the manifest of the hosting app. -->
+48    <!-- Is required to launch foreground extraction service for targetSdkVersion 28+. -->
+49    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+49-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:8:3-74
+49-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:8:20-72
+50
+51    <application
+51-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+52        android:allowBackup="true"
+52-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:4:16-42
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[:androidx.core.core-1.0.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6d11613c3b6a00a9ea456b5609ec43f7\androidx.core.core-1.0.0\AndroidManifest.xml:22:18-86
+54        android:extractNativeLibs="true"
+54-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:18-50
+55        android:icon="@mipmap/app_icon"
+55-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+56        android:label="@string/app_name"
+56-->C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+57        android:supportsRtl="true" >
+57-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:4:43-69
+58        <activity
+58-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-56:20
+59            android:name="com.unity3d.player.UnityPlayerActivity"
+59-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-66
+60            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+60-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-194
+61            android:hardwareAccelerated="false"
+61-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-48
+62            android:launchMode="singleTask"
+62-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-44
+63            android:resizeableActivity="false"
+63-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-47
+64            android:screenOrientation="fullSensor"
+64-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-51
+65            android:theme="@style/UnityThemeSelector" >
+65-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-54
+66            <intent-filter>
+66-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-48:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-69
+67-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-77
+69-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:27-74
+70            </intent-filter>
+71
+72            <meta-data
+72-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-52:40
+73                android:name="unityplayer.UnityActivity"
+73-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-57
+74                android:value="true" />
+74-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-37
+75            <meta-data
+75-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-55:40
+76                android:name="android.notch_support"
+76-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:17-53
+77                android:value="true" />
+77-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:17-37
+78        </activity>
+79
+80        <meta-data
+80-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-60:33
+81            android:name="unity.splash-mode"
+81-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-45
+82            android:value="0" />
+82-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-30
+83        <meta-data
+83-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:36
+84            android:name="unity.splash-enable"
+84-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-47
+85            android:value="True" />
+85-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-33
+86        <meta-data
+86-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
+87            android:name="unity.launch-fullscreen"
+87-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-51
+88            android:value="True" />
+88-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
+89        <meta-data
+89-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:37
+90            android:name="unity.allow-resizable-window"
+90-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-56
+91            android:value="False" />
+91-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-34
+92        <meta-data
+92-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:50
+93            android:name="notch.config"
+93-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-40
+94            android:value="portrait|landscape" />
+94-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-47
+95        <meta-data
+95-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:9-75:36
+96            android:name="unityplayer.SkipPermissionsDialog"
+96-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-61
+97            android:value="true" />
+97-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:75:13-33
+98        <meta-data
+98-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:76:9-78:40
+99            android:name="com.google.ar.core"
+99-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:77:13-46
+100            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+100-->[:unityLibrary] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:78:13-37
+101        <meta-data
+101-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:36:9-38:41
+102            android:name="com.google.ar.core.min_apk_version"
+102-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:37:13-62
+103            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+103-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:38:13-38
+104        <activity
+104-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:40:9-46:80
+105            android:name="com.google.ar.core.InstallActivity"
+105-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:41:13-62
+106            android:configChanges="keyboardHidden|orientation|screenSize"
+106-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:42:13-74
+107            android:excludeFromRecents="true"
+107-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:43:13-46
+108            android:exported="false"
+108-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:44:13-37
+109            android:launchMode="singleTop"
+109-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:45:13-43
+110            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+110-->[:arcore_client:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\ae4e63aee2448ed4859dc95da47269f5\arcore_client\AndroidManifest.xml:46:13-77
+111        <activity
+111-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+112            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+112-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+113            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+113-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+114            android:hardwareAccelerated="true"
+114-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+115            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+115-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+116        <activity
+116-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+117            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+117-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+118            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+118-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+119            android:hardwareAccelerated="true"
+119-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+120-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+121        <activity
+121-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+122            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+122-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+123            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+123-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+124            android:hardwareAccelerated="false"
+124-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+125            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+125-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+126        <activity
+126-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+127            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+127-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+128            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+128-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+129            android:hardwareAccelerated="false"
+129-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+130            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+130-->[:UnityAds:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+131        <activity
+131-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:5-271
+132            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+132-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:15-102
+133            android:enabled="false"
+133-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:103-126
+134            android:exported="false"
+134-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:127-151
+135            android:launchMode="singleInstance"
+135-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:204-239
+136            android:process=":playcore_missing_splits_activity"
+136-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:152-203
+137            android:stateNotNeeded="true" />
+137-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:12:240-269
+138        <activity
+138-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:13:5-226
+139            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+139-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:13:15-95
+140            android:enabled="false"
+140-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:13:96-119
+141            android:exported="false"
+141-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:13:120-144
+142            android:stateNotNeeded="true"
+142-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:13:145-174
+143            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+143-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:13:175-224
+144        <service
+144-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:16:5-145
+145            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+145-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:16:14-95
+146            android:enabled="false"
+146-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:16:96-119
+147            android:exported="true" /> <!-- FileProvider for sharing feature -->
+147-->[:com.google.android.play.core-1.8.2:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\fb0ed4d733edbb061b29befeb8e1fc1a\com.google.android.play.core-1.8.2\AndroidManifest.xml:16:120-143
+148        <provider
+148-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:6:5-8:16
+149            android:name="com.sglib.easymobile.androidnative.EMFileProvider"
+149-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:6:15-79
+150            android:authorities="com.ARtio.DevilStone.easymobile_fileprovider"
+150-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:6:80-146
+151            android:exported="false"
+151-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:6:147-171
+152            android:grantUriPermissions="true" >
+152-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:6:172-206
+153            <meta-data
+153-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:7:7-106
+154                android:name="android.support.FILE_PROVIDER_PATHS"
+154-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:7:18-68
+155                android:resource="@xml/file_paths" />
+155-->[:com.sglib.easymobile.easy-mobile-1.4.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\6a4b41bba330a9f0d4b0bcc6449e46f5\com.sglib.easymobile.easy-mobile-1.4.0\AndroidManifest.xml:7:69-103
+156        </provider>
+157
+158        <meta-data
+158-->[:com.google.android.gms.play-services-basement-17.0.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\com.google.android.gms.play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+159            android:name="com.google.android.gms.version"
+159-->[:com.google.android.gms.play-services-basement-17.0.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\com.google.android.gms.play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+160            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+160-->[:com.google.android.gms.play-services-basement-17.0.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\294cc5ecc9001f3e94c034cd71f64fdf\com.google.android.gms.play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+161        <activity
+161-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:24:5-254
+162            android:name="com.google.android.gms.ads.AdActivity"
+162-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:24:15-67
+163            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+163-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:24:68-177
+164            android:exported="false"
+164-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:24:178-202
+165            android:theme="@android:style/Theme.Translucent" />
+165-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:24:203-251
+166
+167        <provider
+167-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:25:5-195
+168            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+168-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:25:15-78
+169            android:authorities="com.ARtio.DevilStone.mobileadsinitprovider"
+169-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:25:79-143
+170            android:exported="false"
+170-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:25:144-168
+171            android:initOrder="100" />
+171-->[:com.google.android.gms.play-services-ads-lite-19.3.0:] C:\Users\ender\.gradle\caches\transforms-2\files-2.1\0d14ca1b6ae96283dacf1438056de8e9\com.google.android.gms.play-services-ads-lite-19.3.0\AndroidManifest.xml:25:169-192
+172
+173        <uses-library
+173-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-14:40
+174            android:name="org.apache.http.legacy"
+174-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-50
+175            android:required="false" />
+175-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+176
+177        <meta-data
+177-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-18:70
+178            android:name="com.google.android.gms.ads.APPLICATION_ID"
+178-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-69
+179            android:value="ca-app-pub-4388735915242236~5476443998" />
+179-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\ender\Desktop\DevilStone\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-67
+180    </application>
+181
+182</manifest>
